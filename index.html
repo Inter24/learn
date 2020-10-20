@@ -1,0 +1,560 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Главная</title>
+    <meta name="description" content="description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/selectric.css">
+    <link rel="stylesheet" href="css/libs.css"/>
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-12 col-lg-14 col-md-17 col-18">
+                    <div class="header-event">
+                        <a href="#" class="header-entry">
+                            <img src="images/user.png" alt="">
+                           <span class="header-entry__desktop"> Войти на форум</span>
+                            <span class="header-entry__mobile"> Войти</span>
+                        </a>
+                        <form action="#" class="header-search">
+                            <input type="text" class="header-search__input" placeholder="Поиск по сайту...">
+                            <input type="submit" class="header-search__submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-10 col-md-4 col-6 flex justify-content-end">
+                    <a href="#" class="header-see">
+                        <img src="images/eye.png" alt="">
+                        <span>Версия для слабовидящих</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-center">
+        <div class="container">
+            <div class="row align-items-center align-items-lg-start">
+                <div class="col-xl-15 col-lg-17 col-sm-12 col-14">
+                    <div class="header-logo__information">
+                        <a href="#" class="header-logo">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <div class="header-logo__information_text_mobile">
+                            <div class="header-logo__text_big">
+                                ФГБОУ <span>"Тверской ИПК АПК"</span>
+                            </div>
+                        </div>
+                        <div class="header-logo__information_text">
+                            <div class="header-logo__text">
+                                Федеральное государственное бюджетное образовательное учреждение дополнительного
+                                профессионального образования специалистов
+                            </div>
+                            <div class="header-logo__text_big">
+                                Тверской институт переподготовки и повышения квалификации кадров агропромышленного
+                                комплекса
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-7 col-sm-12 col-10 flex flex-column align-items-end text-right">
+                    <a href="tel:84822531335" class="header-logo__phone">8 (4822) 53-13-35 </a>
+                    <a href="tel:84822531334" class="header-logo__phone">8 (4822) 53-13-34</a>
+                    <div class="header-logo__street">
+                        г. Тверь, ул. Маршала Василевского <br> (пгт. Сахарово), д. 10
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-24 flex align-items-center justify-content-between">
+                    <div class="mobile-container">
+                        <a href="#" class="header-logo__mobile">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <div id="hamburger" class="hamburger-icon-container">
+                            <span class="hamburger-icon"></span>
+                        </div>
+                    </div>
+                    <div class="header-bottom__container">
+                        <nav class="header-menu">
+                            <ul class="header-menu__items">
+                                <li class="header-menu__item">
+                                    <a href="#" class="header-menu__link active">Главная</a>
+                                </li>
+                                <li class="header-menu__item header-menu__item_dropdown">
+                                    <a href="#" class="header-menu__link">Сведения об образовательной организации</a>
+                                    <ul class="header-dopMenu">
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Сведения об образовательной организации</a>
+                                        </li>
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Сведения об образовательной организации</a>
+                                        </li>
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Основные сведения</a>
+                                        </li>
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Структура и органы управления образовательной организацией</a>
+                                        </li>
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Документы</a>
+                                        </li>
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Образование</a>
+                                        </li>
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Образовательные стандарты	</a>
+                                        </li>
+                                        <li class="header-dopMenu__item">
+                                            <a href="#" class="header-dopMenu__link">Руководство.Педагогический состав</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="#" class="header-menu__link">Самообследование</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="#" class="header-menu__link">Обучающимся</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="#" class="header-menu__link">Ученый совет</a>
+                                </li>
+                                <li class="header-menu__item">
+                                    <a href="#" class="header-menu__link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="flex align-items-center">
+                        <div class="header-bottom__container_hidden">
+                            <a href="#" class="header-entry">Войти</a>
+                            <a href="#" class="header-see">
+                                <img src="images/eye.png" alt="">
+                                <span>Версия для слабовидящих</span>
+                            </a>
+                        </div>
+                        <div class="header-search__fixed">
+                            <div class="header-search__fixed__icon">
+                                <img src="images/search-1.png" alt="" class="header-search__fixed__icon_relative">
+                                <img src="images/search-2.png" alt="" class="header-search__fixed__icon_absolute">
+                            </div>
+                            <div class="header-search__fixed__form">
+                                <form action="#" class="header-search">
+                                    <input type="text" class="header-search__input" placeholder="Поиск по сайту...">
+                                    <input type="submit" class="header-search__submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="index-slider">
+        <div class="index-slider__item" style="background-image: url(images/slider.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-14">
+                        <div class="index-slider__title">
+                            Профессиональная переподготовка и повышение квалификации
+                            для специалистов в сфере агропромышленного комплекса
+                        </div>
+                        <a href="#" class="btn">
+                            Узнать подробнее
+                            <img src="images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-slider__item" style="background-image: url(images/slider.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-14">
+                        <div class="index-slider__title">
+                            Профессиональная переподготовка
+                        </div>
+                        <a href="#" class="btn">
+                            Отправить запрос
+                            <img src="images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="index-slider__item" style="background-image: url(images/slider.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-14">
+                        <div class="index-slider__title">
+                            Профессиональная переподготовка и повышение квалификации
+                            для специалистов в сфере агропромышленного комплекса
+                        </div>
+                        <a href="#" class="btn">
+                            Отправить запрос
+                            <img src="images/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-8 mt-4">
+                <a href="#" class="item-link">
+                    <span class="item-link__pic">
+                        <img src="images/item-link-4.png" alt="">
+                    </span>
+                    <span class="item-link__text">
+                      Подать документы
+                    </span>
+                    <span class="item-link__absolute">
+                        <img src="images/arrow-right.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-12 col-xl-8 mt-4">
+                <a href="#" class="item-link">
+                    <span class="item-link__pic">
+                        <img src="images/item-link-5.png" alt="">
+                    </span>
+                    <span class="item-link__text">
+                     Осторожно <br> коронавирус
+                    </span>
+                    <span class="item-link__absolute">
+                        <img src="images/arrow-right.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-12 col-xl-8 mt-4">
+                <a href="#" class="item-link">
+                    <span class="item-link__pic">
+                        <img src="images/item-link-6.png" alt="">
+                    </span>
+                    <span class="item-link__text">
+                       Учебный график <br> на 2020 год
+                    </span>
+                    <span class="item-link__absolute">
+                        <img src="images/arrow-right.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-24">
+                <div class="title-page">
+                    Объявления
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="announcement-item">
+                  <span>  В ТГСХА заочно пройдет II этап научного конкурса Минскльхоза РФ по ЦФО в номинация "Агрономия". Прием заявок до 10 апреля</span>
+                </a>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="announcement-item">
+                    Приглащаем поучавствовать в Международной научно-практической конференции в ТГСХА. Прием заявок до 20 октября
+                </a>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="announcement-item">
+                    Повестка дня заседания Ученого совета на 21 сентября 2020 года
+                </a>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="announcement-item">
+                    <span>  В ТГСХА заочно пройдет II этап научного конкурса Минскльхоза РФ по ЦФО в номинация "Агрономия". Прием заявок до 10 апреля</span>
+                </a>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="announcement-item">
+                    Приглащаем поучавствовать в Международной научно-практической конференции в ТГСХА. Прием заявок до 20 октября
+                </a>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="announcement-item">
+                    Повестка дня заседания Ученого совета на 21 сентября 2020 года
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="consultation">
+        <div class="container">
+            <div class="row">
+                <div class="col-24">
+                    <div class="consultation-title">Получить бесплатную консультацию</div>
+                    <div class="consultation-description">Наши сотрудники проконсультируют вас по интересующему вопросу</div>
+                    <form action="#" class="consultation-form">
+                        <div class="consultation-form__line">
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="tel" placeholder="Ваш телефон" class="phone">
+                        </div>
+                        <div class="btn">
+                            <input type="submit">
+                            Отправить запрос
+                            <img src="images/arrow.png" alt="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container news-container">
+        <div class="row">
+            <div class="col-24">
+                <div class="title-page title-page__none">
+                    Новости
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="news-element">
+                        <span class="news-element__pic">
+                            <img src="images/news-item.jpg" alt="">
+                            <span class="news-element__date">
+                                <span class="news-element__date_day">25 </span>
+                                <span class="news-element__date_month">июня</span>
+                            </span>
+                        </span>
+                    <span class="news-element__content">
+                            <span class="news-item__title">
+                                Результаты конкурсного отбора для обучения в военном учебном центре в 2020 г.
+                            </span>
+                            <span class="news-element__description">
+                                В ТГСХА заочно пройдет II этап научного конкурса Минскльхоза РФ по ЦФО в номинация "Агрономия". Прием заявок до 10 апреля
+                            </span>
+                        </span>
+                </a>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="news-element">
+                        <span class="news-element__pic">
+                            <img src="images/news-item.jpg" alt="">
+                            <span class="news-element__date">
+                                <span class="news-element__date_day">25 </span>
+                                <span class="news-element__date_month">июня</span>
+                            </span>
+                        </span>
+                    <span class="news-element__content">
+                            <span class="news-item__title">
+                                Результаты конкурсного отбора для обучения в военном учебном центре в 2020 г.
+                            </span>
+                            <span class="news-element__description">
+                                В ТГСХА заочно пройдет II этап научного конкурса Минскльхоза РФ по ЦФО в номинация "Агрономия". Прием заявок до 10 апреля
+                            </span>
+                        </span>
+                </a>
+            </div>
+            <div class="col-lg-8 col-12 mt-4">
+                <a href="#" class="news-element">
+                        <span class="news-element__pic">
+                            <img src="images/news-item.jpg" alt="">
+                            <span class="news-element__date">
+                                <span class="news-element__date_day">25 </span>
+                                <span class="news-element__date_month">июня</span>
+                            </span>
+                        </span>
+                    <span class="news-element__content">
+                            <span class="news-item__title">
+                                Результаты конкурсного отбора для обучения в военном учебном центре в 2020 г.
+                            </span>
+                            <span class="news-element__description">
+                                В ТГСХА заочно пройдет II этап научного конкурса Минскльхоза РФ по ЦФО в номинация "Агрономия". Прием заявок до 10 апреля
+                            </span>
+                        </span>
+                </a>
+            </div>
+            <div class="col-24 mt-5 flex justify-content-center">
+                <a href="#" class="btn btn-all">
+                    Все новости
+                    <img src="images/arrow.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="text-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-24">
+                    <h1>
+                        Типовая внутреняя страница (Н1)
+                    </h1>
+                    <p>
+                        Тверской институт переподготовки и повышения квалификации кадров агропромышленного комплекса
+                        является
+                        федеральным государственным бюджетным образовательным учреждением дополнительного профессионального
+                        образования специалистов, осуществляющим профессиональную переподготовку и повышение квалификации
+                        кадров
+                        агропромышленного комплекса России.
+                    </p>
+                    <p>
+                        Институт организован в 1994 году приказом Министерства сельского хозяйства и продовольствия
+                        Российской
+                        Федерации от 31.08.1994 №214 на базе Тверской школы управления агропромышленным комплексом.
+                    </p>
+                    <p>
+                        Учредителем института является Министерство сельского хозяйства Российской Федерации.
+                    </p>
+                    <p>
+                        Устав института утвержден приказом Министерства сельского хозяйства РФ 27 мая 2011 г. №135-у и
+                        зарегестрирован в мехрайонной ИФНС России №12 по Тверской области 10.08.2011 г.
+                    </p>
+                    <p>
+                        Институт имеет лицензию на образовательную деятельность Департамента образования Тверской области
+                        серия РО
+                        №028412 от 09.09.2011 г., срок действия лицензии - бессрочный, свидетельство о государственной
+                        аккредитации
+                        серия 69 №0000587 от 07 сентября 2011 г., регистрационный №267.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-md-4 mt-5">
+        <div class="row mt-4">
+            <div class="col-12 col-xl-8 mt-4">
+                <a href="#" class="item-link">
+                    <span class="item-link__pic">
+                        <img src="images/item-link-1.png" alt="">
+                    </span>
+                    <span class="item-link__text">
+                        Противодействие коррупции
+                    </span>
+                    <span class="item-link__absolute">
+                        <img src="images/arrow-right.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-12 col-xl-8 mt-4">
+                <a href="#" class="item-link">
+                    <span class="item-link__pic">
+                        <img src="images/item-link-2.png" alt="">
+                    </span>
+                    <span class="item-link__text">
+                        Антитеррористическая деятельность
+                    </span>
+                    <span class="item-link__absolute">
+                        <img src="images/arrow-right.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="col-12 col-xl-8 mt-4">
+                <a href="#" class="item-link">
+                    <span class="item-link__pic">
+                        <img src="images/item-link-3.png" alt="">
+                    </span>
+                    <span class="item-link__text">
+                        Профилактика наркомании
+                    </span>
+                    <span class="item-link__absolute">
+                        <img src="images/arrow-right.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6 col-12 mt-4">
+                <a href="#" class="news-item">
+                    <div class="news-item__text">Министерство сельского <br> хозяйства РФ </div>
+                    <div class="news-item__link">mcx.gov.ru</div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-12 mt-4">
+                <a href="#" class="news-item">
+                    <div class="news-item__text">Министерство <br> просвещения РФ</div>
+                    <div class="news-item__link">увг.gov.ru</div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-12 mt-4">
+                <a href="#" class="news-item">
+                    <div class="news-item__text">Министерство науки и <br> высшего образования РФ</div>
+                    <div class="news-item__link">minobrnauki.gov.ru</div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-12 mt-4">
+                <a href="#" class="news-item">
+                    <div class="news-item__text">Российская <br> академия наук</div>
+                    <div class="news-item__link">ras.ru</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 flex justify-content-center justify-content-lg-start">
+                <a href="#" class="logo-footer">
+                    <img src="images/logo-footer.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-7 pl-lg-5 flex flex-column align-items-center align-items-lg-start mt-4 mt-lg-0">
+                <a href="tel:8 (4822) 53-13-35" class="footer-link__phone">8 (4822) 53-13-35</a>
+                <a href="tel:8 (4822) 53-13-34" class="footer-link__phone">8 (4822) 53-13-34</a>
+                <a href="mailto:info@mcx.ru" class="footer-link__mail">info@mcx.ru</a>
+                <div class="footer-street">г. Тверь, ул. Маршала Василевского <br> (пгт. Сахарово), д. 10</div>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+                <div class="footer-schedule">
+                    График работы: <br>
+                    Пн-Пт 900-18:00, обед 13:00-14:00 <br>
+                    Сб, Вс - выходные дни
+                </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0 flex justify-content-lg-end justify-content-center">
+                <a href="#" class="footer-soc__link">
+                    <img src="images/soc-1.png" alt="" class="footer-soc__link_relative">
+                    <img src="images/soc-1h.png" alt="" class="footer-soc__link_absolute">
+                </a>
+                <a href="#" class="footer-soc__link">
+                    <img src="images/soc-2.png" alt="" class="footer-soc__link_relative">
+                    <img src="images/soc-2h.png" alt="" class="footer-soc__link_absolute">
+                </a>
+                <a href="#" class="footer-soc__link">
+                    <img src="images/soc-3.png" alt="" class="footer-soc__link_relative">
+                    <img src="images/soc-3h.png" alt="" class="footer-soc__link_absolute">
+                </a>
+            </div>
+        </div>
+        <div class="row mt-1">
+            <div class="col-lg-12">
+                <div class="footer-copy">
+                    2016-2020 ФГБОУ "Тверской ИПК АПК"
+                </div>
+            </div>
+            <div class="col-lg-12 flex justify-content-lg-end">
+                <div class="creator">
+                    Создание сайта
+                    <a href="#">bk company</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/jquery.selectric.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

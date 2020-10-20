@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url('FiraSans-Medium.svg#FiraSans-Medium') format('svg'),
+       url('FiraSans-Medium.ttf') format('truetype'),
+       url('FiraSans-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Firasansmedium';
+  src: url('FiraSans-Medium.eot');
+  src: url('FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+       url('FiraSans-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
